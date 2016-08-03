@@ -1,12 +1,11 @@
 {
   "name": "json-concat-brunch",
   "version": "1.0.0",
-  "private": true,
   "description": "Brunch plugin to concatenate JSON files in only one",
-  "author": "Jerome BEHUET",
+  "author": "Jerome BEHUET (@jbehuet)",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/jbehuet/json-concat-brunch.git"
   },
   "license": "MIT",
   "keywords": [
