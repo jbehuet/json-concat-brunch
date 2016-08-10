@@ -14,7 +14,8 @@ npm install json-concat-brunch --save
 plugins : {
   concatenate: {
       files: {
-          'public/lang/i18n.json': [ 'public/lang/fr.json', 'public/lang/en.json', 'public/lang/es.json' ]
+          'public/lang/i18n.json': [ 'public/lang/fr.json', 'public/lang/en.json', 'public/lang/es.json' ],
+          'public/i18n/en.json': ['public/**/*.en.json']
       }
   }
 }
