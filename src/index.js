@@ -1,4 +1,4 @@
-var JSONConcat = require('./json-concat');
+var JSONConcat = require("./json-concat");
 
 function Concatenate(config) {
     this.config = config;
@@ -13,9 +13,9 @@ Concatenate.prototype.brunchPlugin = true;
 
 Concatenate.prototype.onCompile = function onCompile(generatedFiles) {
 
-    for (var destPath in this.files) {
-        JSONConcat.write(this.files[destPath], destPath);
-    }
+    Object.keys(this.files).map(function(file){
+      JSONConcat.write(this.files[destPath], destPath);
+    });
 
     return;
 };

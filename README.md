@@ -1,5 +1,7 @@
 # json-concat-brunch
 
+[![Licence](https://img.shields.io/badge/licence-MIT-blue.svg?maxAge=2592000)](https://github.com/jbehuet/json-concat-brunch/blob/master/LICENCE) [![Release](https://img.shields.io/github/release/jbehuet/json-concat-brunch.svg?maxAge=2592000)](https://github.com/jbehuet/json-concat-brunch/releases) [![Issues](https://img.shields.io/github/issues/jbehuet/json-concat-brunch.svg?maxAge=2592000)](https://github.com/jbehuet/json-concat-brunch/issues) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/47b52c86359d4c0c92611289a644db30)](https://www.codacy.com/app/jbehuet/json-concat-brunch?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=jbehuet/json-concat-brunch&amp;utm_campaign=Badge_Grade)
+
 A plugin for Brunch to combine JSON files in only one
 
 ## Install
