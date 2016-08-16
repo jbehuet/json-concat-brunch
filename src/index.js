@@ -13,7 +13,7 @@ Concatenate.prototype.brunchPlugin = true;
 
 Concatenate.prototype.onCompile = function onCompile(generatedFiles) {
 
-    Object.keys(this.files).map(function(file){
+    Object.keys(this.files).map(function(destPath){
       JSONConcat.write(this.files[destPath], destPath);
     });
 
